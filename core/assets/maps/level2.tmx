@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="20" nextobjectid="272">
+ <tileset firstgid="1" source="bumper.tsx"/>
+ <tileset firstgid="2" source="ball.tsx"/>
+ <tileset firstgid="3" source="blocks.tsx"/>
+ <tileset firstgid="13" source="bg_map1.tsx"/>
+ <tileset firstgid="14" source="bg_map2.tsx"/>
+ <layer id="19" name="Tile Layer 1" width="40" height="23" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7BJwL9aJOwkJK2CJgAAAHww14FiARhgABE=
+  </data>
+ </layer>
+ <objectgroup id="11" name="Collisions" locked="1">
+  <object id="101" name="wall_right" x="1280" y="0" width="1" height="736"/>
+  <object id="105" name="wall_left" x="0" y="0" width="1" height="736"/>
+  <object id="106" name="ceiling" x="0" y="0" width="1280" height="1"/>
+  <object id="107" name="floor" x="0" y="736" width="1280" height="1"/>
+ </objectgroup>
+ <objectgroup id="6" name="bumper" class="bumper" locked="1">
+  <properties>
+   <property name="height" type="float" value="64"/>
+   <property name="width" type="float" value="256"/>
+  </properties>
+  <object id="84" name="bumper" type="bumper" gid="1" x="570" y="730" width="154" height="32">
+   <properties>
+    <property name="displayHeight" type="float" value="170"/>
+    <property name="displayWidth" type="float" value="300"/>
+    <property name="speed" type="float" value="600"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="ball" locked="1">
+  <object id="108" name="ball" type="ball" gid="2" x="615" y="300" width="54" height="54">
+   <properties>
+    <property name="displayHeight" type="float" value="500"/>
+    <property name="displayWidth" type="float" value="500"/>
+    <property name="fallSpeed" type="float" value="-450"/>
+    <property name="gravity" type="float" value="-900"/>
+    <property name="maxSpeed" type="float" value="700"/>
+    <property name="minSpeed" type="float" value="200"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="18" name="blocks" locked="1">
+  <object id="254" gid="6" x="279.715" y="89.0198" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="255" gid="11" x="384.715" y="88.7939" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="256" gid="12" x="489.715" y="88.7884" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="257" gid="6" x="594.715" y="88.7755" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="258" gid="11" x="699.715" y="88.8782" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="259" gid="12" x="804.715" y="88.8727" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="260" gid="6" x="909.715" y="88.8827" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="261" gid="6" x="279.715" y="168.494" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="262" gid="11" x="384.825" y="168.268" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="263" gid="12" x="489.715" y="168.263" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="264" gid="6" x="594.715" y="168.25" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="265" gid="11" x="699.715" y="168.353" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="266" gid="12" x="804.715" y="168.347" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="267" gid="6" x="909.715" y="168.357" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="268" gid="11" x="1015" y="88.88" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="269" gid="11" x="1015" y="168.36" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="270" gid="12" x="175" y="89.02" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+  <object id="271" gid="12" x="175" y="168.49" width="90" height="55">
+   <properties>
+    <property name="displayHeight" type="float" value="120"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

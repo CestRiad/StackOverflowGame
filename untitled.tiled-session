@@ -1,0 +1,104 @@
+{
+    "activeFile": "core/assets/maps/level3.tmx",
+    "expandedProjectPaths": [
+        "core/assets",
+        "core/assets/maps",
+        ".",
+        "core"
+    ],
+    "fileStates": {
+        "/Users/riad/Desktop/PROJET PCOO/BlockBreaker/core/assets/maps/ball.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/riad/Desktop/PROJET PCOO/BlockBreaker/core/assets/maps/bg_map1.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/riad/Desktop/PROJET PCOO/BlockBreaker/core/assets/maps/blocks.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/riad/Desktop/PROJET PCOO/BlockBreaker/core/assets/maps/bumper.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/riad/Desktop/PROJET PCOO/BlockBreaker/core/assets/maps/level1.tmx": {
+            "scale": 0.38,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 640.7894736842106,
+                "y": 367.1052631578948
+            }
+        },
+        "core/assets/maps/ball.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "core/assets/maps/bg_map1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "core/assets/maps/bg_map2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "core/assets/maps/bg_map3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "core/assets/maps/blocks.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "core/assets/maps/bumper.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "core/assets/maps/level1.tmx": {
+            "scale": 0.2431,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 890.5800082270669,
+                "y": 401.0695187165775
+            }
+        },
+        "core/assets/maps/level2.tmx": {
+            "scale": 0.38816406249999996,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 640.1932172687934,
+                "y": 367.112810707457
+            }
+        },
+        "core/assets/maps/level3.tmx": {
+            "scale": 0.1877,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 785.8284496537026,
+                "y": 290.35695258391047
+            }
+        }
+    },
+    "openFiles": [
+        "core/assets/maps/ball.tsx",
+        "core/assets/maps/bg_map1.tsx",
+        "core/assets/maps/bg_map2.tsx",
+        "core/assets/maps/bg_map3.tsx",
+        "core/assets/maps/blocks.tsx",
+        "core/assets/maps/bumper.tsx",
+        "core/assets/maps/level1.tmx",
+        "core/assets/maps/level2.tmx",
+        "core/assets/maps/level3.tmx"
+    ],
+    "project": "untitled.tiled-project",
+    "recentFiles": [
+        "core/assets/maps/ball.tsx",
+        "core/assets/maps/bg_map1.tsx",
+        "core/assets/maps/bg_map2.tsx",
+        "core/assets/maps/bg_map3.tsx",
+        "core/assets/maps/blocks.tsx",
+        "core/assets/maps/bumper.tsx",
+        "core/assets/maps/level1.tmx",
+        "core/assets/maps/level2.tmx",
+        "core/assets/maps/level3.tmx",
+        "/Users/riad/Desktop/PROJET PCOO/BlockBreaker/core/assets/maps/level1.tmx"
+    ]
+}
