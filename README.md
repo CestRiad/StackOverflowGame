@@ -5,6 +5,15 @@ Université Nice Côte d’Azur
 
 ⸻
 
+Compilation & Exécution
+
+Depuis la racine du projet :
+./gradlew lwjgl3:run
+
+=> Le moteur se lance automatiquement avec la configuration graphique adaptée.
+
+⸻
+
 Présentation du projet
 
 StackOverflowGame est un moteur de jeu 2D développé en Java avec la bibliothèque LibGDX.
@@ -83,22 +92,11 @@ StackOverflowGame/
 │           └── StartupHelper.java
 └── gradlew
 
-
-
 Prérequis
 	-	Java JDK 17
 	-	Gradle (fourni via wrapper)
 	-	macOS / Windows / Linux
 	-	Tiled Map Editor (pour modifier les niveaux)
-
-⸻
-
-Compilation & Exécution
-
-Depuis la racine du projet :
-./gradlew lwjgl3:run
-
-=> Le moteur se lance automatiquement avec la configuration graphique adaptée.
 
 ⸻
 
