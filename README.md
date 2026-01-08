@@ -49,16 +49,16 @@ L’ajout ou la modification du contenu du jeu se fait exclusivement via Tiled :
 Architecture & Concepts POO
 
 Le projet met en oeuvre les concepts fondamentaux de la PCOO:
-	-	Héritage :
+	Héritage :
 	    -	Entity (classe abstraite)
         - 	Ball, Block, Bumper
-	-	Polymorphisme :
+	Polymorphisme :
 	    -	Méthodes communes (render, applyTiledProperties)
-	-	Encapsulation :
+	Encapsulation :
 	    -	Attributs privés, accès contrôlé
-	-	Factory Pattern :
+	Factory Pattern :
 	    -	EntityFactory pour instancier les entités depuis Tiled
-	-	Séparation logique proche du MVC :
+	Séparation logique proche du MVC :
 	    -	Modèle : entités
 	    -	Vue : rendu LibGDX
 	    -	Contrôleur : GameScreen
